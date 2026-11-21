@@ -1,7 +1,7 @@
 # Automatización en QA: Elevando la Eficiencia
 ## Plataformas de Desarrollo de Software — Foro Semana 5
 
-Este proyecto implementa una **estrategia de testing automatizado y control de excepciones** para un sistema de servicios bancarios transaccionales (`BankService`). Incluye suites de pruebas unitarias que cubren flujos positivos, negativos, casos de borde (*boundary analysis*) y verificación estricta de excepciones, ejecutables nativamente tanto con **`pytest`** como con **`unittest`**.
+Este proyecto implementa una **estrategia de testing automatizado y control de excepciones** para un sistema de servicios bancarios transaccionales. Incluye suites de pruebas unitarias que cubren flujos positivos, negativos, casos de borde y verificación estricta de excepciones, ejecutables nativamente tanto con **`pytest`** como con **`unittest`**.
 
 ---
 
@@ -23,7 +23,6 @@ FORO SEMANA 5/
 │   ├── test_banking_automation.py       # Pruebas duales (unittest + pytest)
 │   └── test_banking_pytest.py           # Pruebas idiomáticas con fixtures y parametrización
 │
-├── INSTRUCCIONES_Y_RESPUESTAS_FORO.md   # Respuestas completas para los 4 roles del foro (APA 7)
 ├── main.py                              # Script de demostración interactiva y ejecutor de pruebas
 └── README.md                            # Esta guía de ejecución
 ```
@@ -33,16 +32,16 @@ FORO SEMANA 5/
 ## ⚙️ Requisitos Previos
 
 - **Python 3.10 o superior** instalado.
-- Entorno virtual configurado en la carpeta `.venv` (ya creado en el proyecto).
-- Dependencias: `pytest` (instalado en el entorno virtual).
+- Entorno virtual configurado en la carpeta `.venv`.
+- Dependencias: `pytest`.
 
 ---
 
 ## 🚀 Guía de Ejecución de Pruebas
 
-Abre una terminal de PowerShell o CMD en la carpeta raíz del proyecto (`FORO SEMANA 5`):
+Abre una terminal de PowerShell o CMD en la carpeta raíz del proyecto:
 
-### 1. Ejecución con `pytest` (Recomendado)
+### 1. Ejecución con `pytest`
 
 `pytest` ejecuta automáticamente ambas suites de prueba (`tests/test_banking_automation.py` y `tests/test_banking_pytest.py`), reportando un total de **35 pruebas exitosas**:
 
@@ -62,7 +61,7 @@ Abre una terminal de PowerShell o CMD en la carpeta raíz del proyecto (`FORO SE
 
 ---
 
-### 2. Ejecución con `unittest` (Módulo estándar de Python)
+### 2. Ejecución con `unittest`
 
 Para ejecutar las pruebas usando el ejecutor nativo de `unittest`:
 
